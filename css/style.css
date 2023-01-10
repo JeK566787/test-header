@@ -157,12 +157,22 @@ body {
   justify-content: center;
 }
 
+.basket-icon {
+  margin-top: 5px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(86%) saturate(0%) hue-rotate(7deg)
+    brightness(111%) contrast(100%);
+}
+
+.full-basket .basket-icon {
+  filter: none;
+}
+
 .basket-number {
   transform: scale(0.7);
   margin-top: 1px;
 }
 
-.basket-icon {
+/* .basket-icon {
   fill: white;
 
   transform: scale(0.8);
@@ -170,7 +180,7 @@ body {
 
 .full-basket .basket-icon {
   fill: #f9b233;
-}
+} */
 
 /* ------------------------dropdown-------------------------------------- */
 .dots {
@@ -339,14 +349,4 @@ body {
   color: #51296f;
 
   cursor: pointer;
-}
-
-.png-test {
-  margin-top: 5px;
-  filter: brightness(0) saturate(100%) invert(100%) sepia(86%) saturate(0%) hue-rotate(7deg)
-    brightness(111%) contrast(100%);
-}
-
-.full-basket .png-test {
-  filter: none;
 }
