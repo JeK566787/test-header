@@ -148,7 +148,7 @@ body {
 
   position: absolute;
 
-  top: 25%;
+  top: 26%;
   left: 55%;
 
   width: 15px;
@@ -156,10 +156,14 @@ body {
 
   background-color: red;
   border-radius: 50%;
+
+  z-index: 1;
 }
 
 .basket-icon {
   fill: white;
+
+  transform: scale(0.8);
 }
 
 .full-basket-icon {
