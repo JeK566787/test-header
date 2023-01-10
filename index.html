@@ -24,18 +24,20 @@
               <li><a class="main-nav-item" href="">Help</a></li>
               <li class="dots">
                 <a class="main-nav-item" href="">...</a>
-                <div class="dropdown">
+                <div class="dropdown hidden">
                   <nav>
                     <ul class="dropdown-list">
                       <li><a class="dropdown-item" href="">News</a></li>
                       <li><a class="dropdown-item" href="">About us</a></li>
                       <li><a class="dropdown-item" href="">Contact us</a></li>
+                      <li></li>
                       <li><a class="dropdown-item" href="">Downloads</a></li>
                       <li><a class="dropdown-item" href="">Privacy policy</a></li>
                       <li><a class="dropdown-item" href="">Terms of use</a></li>
                     </ul>
                   </nav>
                   <form action="" class="dropdown-form">
+                    <img class="dropdown-form-icon" src="./img/search-icon.png" alt="" />
                     <input class="dropdown-input" type="text" />
                   </form>
 
@@ -55,8 +57,8 @@
             <ul class="member-nav-list">
               <li><a class="member-nav-item" href="">Sign in</a></li>
               <li><a class="member-nav-item" href="">Sign up</a></li>
-              <li>
-                <svg width="40px" height="40px" class="test">
+              <li class="basket-container full-basket">
+                <svg width="35px" height="35px" class="basket-icon full-basket-icon">
                   <use href="./img/full-basket.svg#test"></use>
                 </svg>
               </li>
@@ -65,10 +67,18 @@
         </div>
 
         <form action="" class="search-form">
-          <input class="input-form" type="text" />
+          <img class="search-form-icon" src="./img/search-icon.png" alt="" />
+
+          <input
+            class="input-search-form"
+            name="search"
+            type="text"
+            placeholder="Search for events by keywords"
+          />
           <button class="button" type="button">SEARCH</button>
         </form>
       </div>
     </header>
+    <script src="./js/app.js"></script>
   </body>
 </html>
