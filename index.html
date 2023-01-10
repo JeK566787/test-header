@@ -8,77 +8,83 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-area container">
-        <div class="nav-group">
-          <div class="logo">
-            <a href=""
-              >logo
-              <img src="" alt="" />
-            </a>
-          </div>
-          <nav class="main-nav">
-            <ul class="main-nav-list">
-              <li><a class="main-nav-item" href="">Find events</a></li>
-              <li><a class="main-nav-item" href="">Create an event</a></li>
-              <li><a class="main-nav-item" href="">Help</a></li>
-              <li class="dots">
-                <a class="main-nav-item" href="">...</a>
-                <div class="dropdown hidden">
-                  <nav>
-                    <ul class="dropdown-list">
-                      <li><a class="dropdown-item" href="">News</a></li>
-                      <li><a class="dropdown-item" href="">About us</a></li>
-                      <li><a class="dropdown-item" href="">Contact us</a></li>
-                      <li></li>
-                      <li><a class="dropdown-item" href="">Downloads</a></li>
-                      <li><a class="dropdown-item" href="">Privacy policy</a></li>
-                      <li><a class="dropdown-item" href="">Terms of use</a></li>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-area container">
+          <div class="nav-group">
+            <div class="logo">
+              <a href=""
+                >logo
+                <img src="" alt="" />
+              </a>
+            </div>
+            <nav class="main-nav">
+              <ul class="main-nav-list">
+                <li><a class="main-nav-item" href="">Find events</a></li>
+                <li><a class="main-nav-item" href="">Create an event</a></li>
+                <li><a class="main-nav-item" href="">Help</a></li>
+                <li class="dots">
+                  <a class="main-nav-item" href="">...</a>
+                  <div class="dropdown hidden">
+                    <nav>
+                      <ul class="dropdown-list">
+                        <li><a class="dropdown-item" href="">News</a></li>
+                        <li><a class="dropdown-item" href="">About us</a></li>
+                        <li><a class="dropdown-item" href="">Contact us</a></li>
+                        <li></li>
+                        <li><a class="dropdown-item" href="">Downloads</a></li>
+                        <li><a class="dropdown-item" href="">Privacy policy</a></li>
+                        <li><a class="dropdown-item" href="">Terms of use</a></li>
+                      </ul>
+                    </nav>
+                    <form action="" class="dropdown-form">
+                      <img class="dropdown-form-icon" src="./img/search-icon.png" alt="" />
+                      <input class="dropdown-input" type="text" placeholder="Site search" />
+                    </form>
+
+                    <div class="social-links-img">
+                      <img src="./img/color_fill_767_29867.png" alt="" />
+                    </div>
+                    <ul class="social-links-list">
+                      <li class="social-links-item"></li>
+                      <li class="social-links-item"></li>
+                      <li class="social-links-item"></li>
+                      <li class="social-links-item"></li>
+                      <li class="social-links-item"></li>
+                      <li class="social-links-item"></li>
                     </ul>
-                  </nav>
-                  <form action="" class="dropdown-form">
-                    <img class="dropdown-form-icon" src="./img/search-icon.png" alt="" />
-                    <input class="dropdown-input" type="text" />
-                  </form>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <nav class="member-nav">
+              <ul class="member-nav-list">
+                <li><a class="member-nav-item" href="">Sign in</a></li>
+                <li><a class="member-nav-item" href="">Sign up</a></li>
+                <li class="basket-container full-basket">
+                  <svg width="35px" height="35px" class="basket-icon full-basket-icon">
+                    <use href="./img/full-basket.svg#test"></use>
+                  </svg>
+                </li>
+              </ul>
+            </nav>
+          </div>
 
-                  <ul class="social-links-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </nav>
-          <nav class="member-nav">
-            <ul class="member-nav-list">
-              <li><a class="member-nav-item" href="">Sign in</a></li>
-              <li><a class="member-nav-item" href="">Sign up</a></li>
-              <li class="basket-container full-basket">
-                <svg width="35px" height="35px" class="basket-icon full-basket-icon">
-                  <use href="./img/full-basket.svg#test"></use>
-                </svg>
-              </li>
-            </ul>
-          </nav>
+          <form action="" class="search-form">
+            <img class="search-form-icon" src="./img/search-icon.png" alt="" />
+
+            <input
+              class="input-search-form"
+              name="search"
+              type="text"
+              placeholder="Search for events by keywords"
+            />
+            <button class="button" type="button">SEARCH</button>
+          </form>
         </div>
+      </header>
+    </div>
 
-        <form action="" class="search-form">
-          <img class="search-form-icon" src="./img/search-icon.png" alt="" />
-
-          <input
-            class="input-search-form"
-            name="search"
-            type="text"
-            placeholder="Search for events by keywords"
-          />
-          <button class="button" type="button">SEARCH</button>
-        </form>
-      </div>
-    </header>
     <script src="./js/app.js"></script>
   </body>
 </html>
